@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 
 // path is inferred from file location by TanStack Router codegen
-// @ts-expect-error routeTree.gen.ts will be generated on first `vinxi dev`
+// @ts-expect-error routeTree.gen.ts will be generated on first `vite dev`
 export const Route = createFileRoute('/')({
   component: HomePage,
 })
