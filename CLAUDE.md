@@ -306,7 +306,7 @@ jobs:
 - [x] Step 2 — `package.json` (root) created
 - [x] Step 3 — `pnpm-workspace.yaml` created
 - [x] Step 4 — `turbo.json` created
-- [ ] Step 5 — `.gitignore` created
+- [x] Step 5 — `.gitignore` created
 - [ ] Step 6 — `turbo dev --filter=shoebox-app` runs successfully
 
 ### Phase 2 — Shared Packages
