@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [
     tanstackStart({
       react: {},
+      srcDirectory: './app',
     }),
     tailwindcss(),
   ],
