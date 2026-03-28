@@ -27,7 +27,7 @@ We are starting with the customer-facing frontend (`shoebox-app`) using mock dat
 |---|---|
 | Monorepo tooling | Turborepo + pnpm workspaces |
 | Frontend (all apps) | TanStack Start + React |
-| Styling | TailwindCSS |
+| Styling | TailwindCSS + shadcn/ui |
 | Language | TypeScript |
 | Deployment | Vercel |
 | Database (later) | Neon (PostgreSQL) |
