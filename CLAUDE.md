@@ -33,6 +33,7 @@ We are starting with the customer-facing frontend (`shoebox-app`) using mock dat
 | Database (later) | Neon (PostgreSQL) |
 | ORM (later) | Drizzle ORM |
 | Backend framework (later) | Hono |
+| Authentication | Better Auth |
 
 ---
 
@@ -238,6 +239,9 @@ import { Button } from '@shoebox/ui'
 | `/products/$productId` | Product Detail | Images, size picker, Add to Cart |
 | `/cart` | Cart | List of CartItems, subtotal, go to checkout |
 | `/checkout` | Checkout | Form UI only — no payment yet |
+| `/login` | Login | Better Auth sign-in page |
+| `/register` | Register | Better Auth sign-up page |
+| `/account` | Account | Order history, profile (auth-protected) |
 
 ### Mock data
 
@@ -315,7 +319,7 @@ jobs:
 - [ ] Step 9 — `packages/ui` created with Button, Card, Badge, Input
 
 ### Phase 3 — shoebox-app
-- [ ] Step 10 — shoebox-app scaffolded with TanStack Start
+- [x] Step 10 — shoebox-app scaffolded with TanStack Start
 - [ ] Step 11 — `mock-data/products.ts` created
 - [ ] Step 12 — `/` Homepage route built
 - [ ] Step 13 — `/products` Catalog route built
@@ -326,9 +330,12 @@ jobs:
 - [ ] Step 18 — `ProductCard.tsx` component built
 - [ ] Step 19 — `CartDrawer.tsx` component built
 - [ ] Step 20 — `Footer.tsx` component built
+- [ ] Step 21 — `/login` route built (Better Auth)
+- [ ] Step 22 — `/register` route built (Better Auth)
+- [ ] Step 23 — `/account` route built (auth-protected)
 
 ### Phase 4 — CI/CD
-- [ ] Step 21 — GitHub Actions workflow created for shoebox-app
+- [ ] Step 24 — GitHub Actions workflow created for shoebox-app
 
 ---
 
@@ -337,7 +344,7 @@ jobs:
 Do not build these until told to:
 
 - Real API calls to `shoebox-service-app`
-- Authentication / login / user accounts
+- Payment processing (Stripe, PayMongo, etc.)
 - Payment processing (Stripe, PayMongo, etc.)
 - `shoebox-service-app` backend (Hono + Drizzle + Neon)
 - `shoebox-studio-app` admin panel
