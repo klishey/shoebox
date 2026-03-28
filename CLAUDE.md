@@ -304,7 +304,7 @@ jobs:
 ### Phase 1 — Monorepo Foundation
 - [x] Step 1 — GitHub repo created and cloned locally
 - [x] Step 2 — `package.json` (root) created
-- [ ] Step 3 — `pnpm-workspace.yaml` created
+- [x] Step 3 — `pnpm-workspace.yaml` created
 - [ ] Step 4 — `turbo.json` created
 - [ ] Step 5 — `.gitignore` created
 - [ ] Step 6 — `turbo dev --filter=shoebox-app` runs successfully
